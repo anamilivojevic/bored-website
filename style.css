@@ -1,0 +1,46 @@
+.fade-in {
+  animation: fadein 2s ease-out 1s forwards;
+  opacity: 0;
+}
+
+.fast-ani {
+  animation-duration: 0.5s;
+}
+
+@keyframes fadein {
+  100% {
+    opacity: 1;
+  }
+}
+
+.ad3 {
+  animation-delay: 3s;
+}
+
+.nebula {
+  height: 100vh;
+  background-image: url("./imgs/carina-nebula-space-header.webp");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* instead of using the box shadow for darkening the bg img,
+   we can set a div with class dark-layer */
+.dark-layer {
+  -webkit-box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0px 0px 0px 1000px rgba(0, 0, 0, 0.5);
+}
+
+.c-btn-pink {
+  background-color: rgb(52, 0, 149);
+  color: white;
+}
+
+.c-btn-pink:hover {
+  background-color: rgb(78, 0, 222);
+}
+
+.c-btn-pink:active {
+  background-color: rgb(90, 1, 255) !important;
+}
